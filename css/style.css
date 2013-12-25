@@ -1,0 +1,14 @@
+body{
+    padding-top: 15%;
+}
+.boxes{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.name{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 500%;
+    padding-bottom: 30px;
+}
