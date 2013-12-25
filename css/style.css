@@ -12,3 +12,6 @@ body{
     font-size: 500%;
     padding-bottom: 30px;
 }
+li{
+    list-style-type: none;
+}
