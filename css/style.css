@@ -5,6 +5,8 @@ body{
     padding-left: 100px;
     padding-right: 100px;
 }
+.boxLabel{
+}
 .name{
     text-align: center;
     margin-left: auto;
@@ -12,6 +14,10 @@ body{
     font-size: 500%;
     padding-bottom: 30px;
 }
+ul{
+    list-style:none;
+    padding-left:0px;
+}
 li{
-    list-style-type: none;
+    font-style:italic;
 }
