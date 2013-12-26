@@ -1,8 +1,10 @@
 body{
     padding-top: 15%;
 }
-.box{
-    height:20em;
+@media (min-width: 768px) and (max-width: 992px){
+    .box{
+        height:20em;
+    }
 }
 .boxes{
     padding-left: 10%;
