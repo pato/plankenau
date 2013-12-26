@@ -1,9 +1,12 @@
 body{
     padding-top: 15%;
 }
+.box{
+    height:20em;
+}
 .boxes{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .boxLabel{
 }
@@ -12,7 +15,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-size: 500%;
-    padding-bottom: 30px;
+    padding-bottom: 2%;
 }
 ul{
     list-style:none;
@@ -20,4 +23,9 @@ ul{
 }
 li{
     font-style:italic;
+}
+.footer{
+    position:absolute;
+    bottom:0px;
+    right:1%;
 }
