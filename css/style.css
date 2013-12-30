@@ -28,7 +28,7 @@ li{
     font-style:italic;
 }
 .footer{
-    position:absolute;
+    position:fixed;
     bottom:0px;
     right:1%;
 }
