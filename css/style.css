@@ -30,7 +30,7 @@ ul{
     padding-left:10px;
 }
 li{
-    font-style:italic;
+    /* font-style:italic; */
 }
 .footer{
     position:fixed;
