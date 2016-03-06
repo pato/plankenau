@@ -1,2 +1,2 @@
 ErrorDocument 404 /blog/404.html
-RedirectMatch 301 /post-.*/(.*) /post/$1
+RedirectMatch 301 /blog/post-.*/(.*) /blog/post/$1
