@@ -70,7 +70,7 @@ Then I created a `.htaccess` file in my blog folder containing:
 This will tell apache to redirect 404 errors to your custom page
 
 
-### Mainting backward-compatiblity
+### Maintaining backward-compatibility
 
 After migrating, I realized all my previous blog post links would be broken.
 My old blog used to have links of the form `/blog/post-{num}/{title}` whereas
