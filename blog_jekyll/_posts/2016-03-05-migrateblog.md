@@ -58,6 +58,7 @@ First, I created a `404.html` page with
 ---
 layout: page
 title: 404
+exclude: true
 permalink: /404.html
 ---
 <h1>Sorry it appears the page you are looking for is no longer here</h1>
@@ -68,6 +69,19 @@ Then I created a `.htaccess` file in my blog folder containing:
 `ErrorDocument 404 /blog/404.html`
 
 This will tell apache to redirect 404 errors to your custom page
+
+Finally I had to modify `_includes/header.html` to not display the 404 page in the navbar by
+adding a check to ensure the page is not excluded before adding it to the navbar
+
+```html
+{% for my_page in site.pages %}
+	{% unless my_page.exclude %}
+		{% if my_page.title %}
+			<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+		{% endif %}
+	{% endunless %}
+{% endfor %}
+```
 
 
 ### Maintaining backward-compatibility
