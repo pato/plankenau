@@ -73,7 +73,8 @@ This will tell apache to redirect 404 errors to your custom page
 Finally I had to modify `_includes/header.html` to not display the 404 page in the navbar by
 adding a check to ensure the page is not excluded before adding it to the navbar
 
-```html
+```
+{% raw %}
 {% for my_page in site.pages %}
 	{% unless my_page.exclude %}
 		{% if my_page.title %}
@@ -81,6 +82,7 @@ adding a check to ensure the page is not excluded before adding it to the navbar
 		{% endif %}
 	{% endunless %}
 {% endfor %}
+{% endraw %}
 ```
 
 
