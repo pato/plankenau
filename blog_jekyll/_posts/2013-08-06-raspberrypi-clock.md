@@ -3,7 +3,7 @@ layout: post
 title: RaspberryPi Clock + Gmail Checker
 published: true
 date: 2013-08-06
-permalink: raspberrypi-clock-gmail-checker
+permalink: post/raspberrypi-clock-gmail-checker
 ---
 ![Image](http://plankenau.com/i/cduEJU.jpg "emClock")
 

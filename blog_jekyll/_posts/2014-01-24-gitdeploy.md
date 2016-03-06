@@ -3,7 +3,7 @@ layout: post
 title: Using Git to deploy a website
 published: true
 date: 2014-01-24
-permalink: using-git-to-deploy-a-website
+permalink: post/using-git-to-deploy-a-website
 ---
 I recently redid my personal website and ended up deploying it to both my personal [domain](http://plankenau.com) and my UT [website](http://cs.utexas.edu/~pato). In order to facilitate development and deployment I set up Git post-receive hooks on my servers so I could update my website with one command: `git push web`. This post will explain how you can do the same.
 

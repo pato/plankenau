@@ -3,7 +3,7 @@ layout: post
 title: Journey of a Quadcopter
 published: true
 date: 2014-08-01
-permalink: journey-of-a-quadcopter
+permalink: post/journey-of-a-quadcopter
 ---
 ![quadcopter](http://plankenau.com/i/fm9CFS.jpg)
 

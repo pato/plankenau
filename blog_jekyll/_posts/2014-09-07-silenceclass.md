@@ -3,7 +3,7 @@ layout: post
 title: Making your Android silence itself while you have class
 published: true
 date: 2014-09-07
-permalink: class-silencer
+permalink: post/class-silencer
 ---
 College started again, which means keeping track of classes, homework, examinations, and projects. There's a lot of stuff to deal with, and having to constantly silence my phone for class, and unsilence afterwards, is something repeatable that should be automated.
 

@@ -3,7 +3,7 @@ layout: post
 title: Google Chromecast
 published: true
 date: 2013-08-08
-permalink: google-chromecast
+permalink: post/google-chromecast
 ---
 ![Google Chromecast](http://plankenau.com/i/at02GO.jpg "Chromecast")
 
