@@ -57,7 +57,6 @@ permalink: /404.html
     console.log("Perhaps you meant? " + postTitles[maxIndex]);
     document.getElementById('perhaps').innerHTML = "\
       <h3>Perhaps you are looking for this post:</h3> \
-      <span class='post-meta'>" + postDates[maxIndex] + "</span> \
       <h2><a class='post-link' href='" + postURLs[maxIndex] + "'> " + postTitles[maxIndex] + "</a></h2> \
       <h3> If not, maybe one of these? </h3>";
   } else {
