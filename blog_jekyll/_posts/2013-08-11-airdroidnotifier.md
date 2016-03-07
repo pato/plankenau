@@ -3,7 +3,7 @@ layout: post
 title: Google Chrome Extension - Airdroid Notifier
 published: true
 date: 2013-08-11
-permalink: post/google-chrome-extension-airdroid-notifier
+permalink: post/airdroid-notifier
 ---
 
 ![AirDroid Notifier Banner](http://plankenau.com/i/gl6EMN.png "AirDroid Notifier")
