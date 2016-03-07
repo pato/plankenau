@@ -1,8 +1,19 @@
 ---
 layout: page
-title: 404
+title: 404 Whoops!?
 exclude: true
 permalink: /404.html
 ---
-<h1>Sorry it appears the page you are looking for is no longer here</h1>
+<h2>Sorry it appears the page you are looking for is no longer at this URL</h2>
 
+<h3>Perhaps you are looking for one of these?</h3>
+
+<ul>
+{% for post in site.posts %}
+<li>
+  <p>
+    <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ post.date | date: "%b %-d, %Y" }})
+  </p>
+</li>
+{% endfor %}
+</ul>
