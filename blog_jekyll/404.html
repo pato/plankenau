@@ -38,7 +38,7 @@ permalink: /404.html
 
   // maybe it was an old-style URL that I couldn't recover
   if (url.includes("post")) {
-    title = url.split("/").pop().toLowerCase();
+    title = url.split("/blog/post/").pop().toLowerCase();
 
     // find the closest match 
     maxIndex = -1;
