@@ -1,5 +1,6 @@
 ErrorDocument 404 /blog/404.html
 RedirectMatch 301 /blog/post-.*/(.*) /blog/post/$1
+RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} (.+)/$
 RewriteRule ^ %1 [R=301,L]
