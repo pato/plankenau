@@ -2,7 +2,7 @@
 layout: post
 title: Encrypted Conversation Recordings
 published: true
-date: 2016-03-06
+date: 2016-04-13
 permalink: post/encrypted-convos
 ---
 
