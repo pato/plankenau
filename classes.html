@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Patricio "Pato" Lankenau - Class Resources</title>
+        <title>Patricio "Pato" Lankenau - School Stuff</title>
         <meta name=viewport content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
@@ -9,8 +9,53 @@
     </head>
     <body>
       <div class="container">
+        <div class="class_projects">
+          <h1>Interesting school work</h1>
+
+          <h3 class="class">CS378H - Distributed Systems</h3>
+
+          <p class="project">Bayouh - Weakly consistent distributed database</p>
+          <ul>
+            <li>Based on K. Petersen, M. J. Spreitzer, et al. paper</li>
+            <li>Provides a weakly consistent database for storing song and url keypairs across many devices</li>
+            <li>Supports arbitrary network topologies, conflict resolution, and has high availability despite
+              long periods without connection</li>
+            <li>Implemented in Haskell using Distributed Haskell</li>
+            <!-- <li><a href="https://github.com/pato/bayouh">Source Code</a></li> -->
+          </ul>
+
+          <p class="project">Paxosh - Distributed fault-tolerant chat system using Paxos</p>
+          <ul>
+            <li>Based on Leslie Lamport's Part-Time Parliament Paxos paper</li>
+            <li>Provides a multiple-client multiple-server fault-tolerant chat messaging platform</li>
+            <li>Implemented in Haskell using Distributed Haskell</li>
+            <li><a href="https://github.com/pato/paxosh">Source Code</a></li>
+          </ul>
+
+          <p class="project">Snapsh - Distributed efficient consistent global snapshots</p>
+          <ul>
+            <li>Based on the Chandy-Lamport distributed snapshots paper</li>
+            <li>Can take consistent global snapshots of multiple distributed servers, supports arbitrary network
+              topologies, and asynchronous messaging</li>
+            <li>Implemented in Haskell using Distributed Haskell</li>
+            <li><a href="https://github.com/pato/snapsh">Source Code</a></li>
+          </ul>
+        </div>
+
+        <h3 class="class">CS345H - Programming Languages</h3>
+
+        <p class="project">L - a fantastic lambda-calculus-based functional programming language</p>
+        <ul>
+          <li>A functional programming language based on the lambda calculus with many Haskell-like features</li>
+          <li>Supports full unannotated Hindley-Milner type inference</li>
+          <li>Formally proven type system to prevent run-time errors</li>
+          <li>Has independent lexer, parser, and interpreter</li>
+          <li>Implemented in C++ using flex/bison</li>
+          <li><a href="/files/lreport.pdf">Report</a></li>
+        </ul>
+
         <div class="class_list">
-          <h2>Classes I'm Mentoring</h2>
+          <h1>Classes I'm Mentoring</h1>
           <h3>CS101 Pod:
             [Fall 2014] [Spring 2015]
             <a href="#" class="class_btn" data-class="cs101_fall2015">[Fall 2015]</a>

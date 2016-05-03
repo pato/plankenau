@@ -45,3 +45,6 @@ li{
   border-width: 1px;
   background-color: rgba(50,50,50,0.2);
 }
+.project_list {
+  font-size: 1.2em;
+}
