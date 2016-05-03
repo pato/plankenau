@@ -11,6 +11,46 @@ $(document).ready(function(){
       var class_id = $(this).attr("data-class");
       $("#" + class_id).fadeToggle();
     });
+
+    $(".more").hide();
+    $(".moreall").hide();
+
+    $(".moreall").click(function() {
+      $(".more").hide();
+      $(".moreinfo").fadeIn();
+      $(".less").show();
+      $(".lessall").show();
+      $(".moreall").hide();
+    });
+    $(".lessall").click(function() {
+      $(".more").show();
+      $(".moreinfo").fadeOut();
+      $(".less").hide();
+      $(".moreall").show();
+      $(".lessall").hide();
+    });
+
+    $(".more").click(function() {
+      project  = $(this).closest(".project");
+      moreinfo = $(project).children(".moreinfo");
+      more     = $(project).find(".more");
+      less     = $(project).find(".less");
+      console.log(project)
+
+      $(more).hide();
+      $(less).show();
+      $(moreinfo).fadeIn();
+    });
+    $(".less").click(function() {
+      project  = $(this).closest(".project");
+      moreinfo = $(project).children(".moreinfo");
+      more     = $(project).find(".more");
+      less     = $(project).find(".less");
+
+      $(less).hide();
+      $(more).show();
+      $(moreinfo).fadeOut();
+    });
 });
 
 var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";

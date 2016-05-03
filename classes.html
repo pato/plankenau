@@ -11,48 +11,104 @@
       <div class="container">
         <div class="class_projects">
           <h1>Interesting school work</h1>
+          <p><a href="#" class="moreall">Expand All</a> <a href="#" class="lessall">Hide all</a></p>
 
-          <h3 class="class">CS378H - Distributed Systems</h3>
+          <h3>CS378H - Distributed Systems</h3>
 
-          <p class="project">Bayouh - Weakly consistent distributed database</p>
-          <ul>
-            <li>Based on K. Petersen, M. J. Spreitzer, et al. paper</li>
-            <li>Provides a weakly consistent database for storing song and url keypairs across many devices</li>
-            <li>Supports arbitrary network topologies, conflict resolution, and has high availability despite
-              long periods without connection</li>
-            <li>Implemented in Haskell using Distributed Haskell</li>
-            <!-- <li><a href="https://github.com/pato/bayouh">Source Code</a></li> -->
-          </ul>
+          <div class="project">
+            <p>Bayouh - Weakly consistent distributed database
+            <a href="#" class="more">Expand info</a>
+            <a href="#" class="less">Less info</a></p>
+            <ul class="moreinfo">
+              <li>Based on K. Petersen, M. J. Spreitzer, et al. paper</li>
+              <li>Provides a weakly consistent database for storing song and url keypairs across many devices</li>
+              <li>Supports arbitrary network topologies, conflict resolution, and has high availability despite
+                long periods without connection</li>
+              <li>Implemented in Haskell using Distributed Haskell</li>
+              <!-- <li><a href="https://github.com/pato/bayouh">Source Code</a></li> -->
+            </ul>
+          </div>
+          <div class="project">
+            <p>Paxosh - Distributed fault-tolerant chat system using Paxos
+            <a href="#" class="more">Expand info</a>
+            <a href="#" class="less">Less info</a></p>
+            <ul class="moreinfo">
+              <li>Based on Leslie Lamport's Part-Time Parliament Paxos paper</li>
+              <li>Provides a multiple-client multiple-server fault-tolerant chat messaging platform</li>
+              <li>Implemented in Haskell using Distributed Haskell</li>
+              <li><a href="https://github.com/pato/paxosh">Source Code</a></li>
+            </ul>
+          </div>
 
-          <p class="project">Paxosh - Distributed fault-tolerant chat system using Paxos</p>
-          <ul>
-            <li>Based on Leslie Lamport's Part-Time Parliament Paxos paper</li>
-            <li>Provides a multiple-client multiple-server fault-tolerant chat messaging platform</li>
-            <li>Implemented in Haskell using Distributed Haskell</li>
-            <li><a href="https://github.com/pato/paxosh">Source Code</a></li>
-          </ul>
+          <div class="project"
+            <p class="project">Snapsh - Distributed efficient consistent global snapshots
+            <a href="#" class="more">Expand info</a>
+            <a href="#" class="less">Less info</a></p>
+            <ul class="moreinfo">
+              <li>Based on the Chandy-Lamport distributed snapshots paper</li>
+              <li>Can take consistent global snapshots of multiple distributed servers, supports arbitrary network
+                topologies, and asynchronous messaging</li>
+              <li>Implemented in Haskell using Distributed Haskell</li>
+              <li><a href="https://github.com/pato/snapsh">Source Code</a></li>
+            </ul>
+          </div>
+        </div>
 
-          <p class="project">Snapsh - Distributed efficient consistent global snapshots</p>
-          <ul>
-            <li>Based on the Chandy-Lamport distributed snapshots paper</li>
-            <li>Can take consistent global snapshots of multiple distributed servers, supports arbitrary network
-              topologies, and asynchronous messaging</li>
-            <li>Implemented in Haskell using Distributed Haskell</li>
-            <li><a href="https://github.com/pato/snapsh">Source Code</a></li>
+        <h3>CS345H - Programming Languages</h3>
+        <div class="project">
+          <p>L - a fantastic lambda-calculus-based functional programming language
+          <a href="#" class="more">Expand info</a>
+          <a href="#" class="less">Less info</a></p>
+          <ul class="moreinfo">
+            <li>A functional programming language based on the lambda calculus with many Haskell-like features</li>
+            <li>Supports full unannotated Hindley-Milner type inference</li>
+            <li>Formally proven type system to prevent run-time errors</li>
+            <li>Has independent lexer, parser, and interpreter</li>
+            <li>Implemented in C++ using flex/bison</li>
+            <li><a href="/files/lreport.pdf">Report</a></li>
           </ul>
         </div>
 
-        <h3 class="class">CS345H - Programming Languages</h3>
+        <h3>CS350c - Advanced Architecture</h3>
 
-        <p class="project">L - a fantastic lambda-calculus-based functional programming language</p>
-        <ul>
-          <li>A functional programming language based on the lambda calculus with many Haskell-like features</li>
-          <li>Supports full unannotated Hindley-Milner type inference</li>
-          <li>Formally proven type system to prevent run-time errors</li>
-          <li>Has independent lexer, parser, and interpreter</li>
-          <li>Implemented in C++ using flex/bison</li>
-          <li><a href="/files/lreport.pdf">Report</a></li>
-        </ul>
+        <div class="project">
+          <p>A Verilog out-of-order processor using Tomasulo's algorith
+          <a href="#" class="more">Expand info</a>
+          <a href="#" class="less">Less info</a></p>
+          <ul class="moreinfo">
+            <li>Allows for out-of-order parallel execution of a RISC ISA based on x86</li>
+            <li>Fully synthesizable and can be flashed on an FPGA</li>
+            <li>Fully functional branch predictor</li>
+            <li>Implemented in Verilog</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <p>A Verilog dual-core multi-threaded out-of-order processor
+          <a href="#" class="more">Expand info</a>
+          <a href="#" class="less">Less info</a></p>
+          <ul class="moreinfo">
+            <li>Allows for fully parallel dual-core execution of a RISC ISA based on x86</li>
+            <li>Fully synthesizable and can be flashed on an FPGA</li>
+            <li>Implemented in Verilog</li>
+          </ul>
+        </div>
+
+        <h3>CS349H - Operating Systems</h3>
+          
+        <div class="project">
+          <p>PatOS - x86 bare-bones operating system based on linux
+          <a href="#" class="more">Expand info</a>
+          <a href="#" class="less">Less info</a></p>
+          <ul class="moreinfo">
+            <li>Drivers for full keyboard and VGA video support</li>
+            <li>Supports FAT block devices</li>
+            <li>Built-in graphical interface and kernel-level tiling window manager</li>
+            <li>Several built-in user-level programs: shell,c lear, cat, echo, exit, shutdown, and welcome program</li>
+            <li>Built using x86 ASM and C++</li>
+            <li><a href="https://github.com/pato/patOS">Source Code</a></li>
+          </ul>
+        </div>
 
         <div class="class_list">
           <h1>Classes I'm Mentoring</h1>

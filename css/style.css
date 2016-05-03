@@ -45,6 +45,12 @@ li{
   border-width: 1px;
   background-color: rgba(50,50,50,0.2);
 }
-.project_list {
+.project p{
   font-size: 1.2em;
+}
+.more, .less{
+  padding-top:-30px;
+  font-size: 0.8em;
+  display:inline-block;
+  margin-top:-10px;
 }
