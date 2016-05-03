@@ -1,9 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:600);
 
 body{
-    padding-top: 15%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6em;
+}
+.bodytop{
+    padding-top: 15%;
 }
 @media (min-width: 768px) and (max-width: 992px){
     .box{
