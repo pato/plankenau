@@ -56,3 +56,8 @@ li{
   display:inline-block;
   margin-top:-10px;
 }
+.pageImg {
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
