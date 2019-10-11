@@ -1,5 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:600);
 
+/* Thanks to https://tombrow.com/dark-mode-website-css */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  a {
+    color: #e39777;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+}
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6em;
