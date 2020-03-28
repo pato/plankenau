@@ -63,7 +63,7 @@ your clipboard history. Super light-weight and keyboard-shortcut friendly.
 
 Simple app that allows you to control when and which apps are allowed to be on
 your menu bar. Keep your important ones always visible, hide the rest. Plus you
-can toggle them, as well show them on chnages.
+can toggle them, as well show them on changes.
 
 <https://www.macbartender.com>
 
