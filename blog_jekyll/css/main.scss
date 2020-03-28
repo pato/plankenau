@@ -51,3 +51,35 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  a {
+    color: #e39777;
+  }
+  a:visited {
+    color: #A36C55;
+  }
+  a:hover {
+    color: #FFA680;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+  .site-title, .site-title:visited {
+    color: #e39777;
+  }
+  code {
+    background-color: #444;
+  }
+  .highlighter-rouge .highlight {
+    background: #444;
+  }
+  .highlighter-rouge {
+    background-color: #444;
+  }
+}
