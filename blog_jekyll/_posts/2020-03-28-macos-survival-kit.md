@@ -6,11 +6,11 @@ date: 2020-03-28
 permalink: post/macos-app-survival-kit
 ---
 
-These are the apps and toolls that I cannot live without, broken down into
+These are the apps and tools that I cannot live without, broken down into
 various categories.  I spend the first waking moments with a new Mac setting
 all of these up.
 
-All of these mac apps are carefully desgined, tested, and developed with such
+All of these mac apps are carefully designed, tested, and developed with such
 incredible levels of quality. And as such sometimes carry a price-tag, but as a
 developer myself, I want to support the developers that go above and beyond.
 Plus I am more than willing to pay for convenience, productivity, and privacy.
@@ -76,7 +76,7 @@ Effectively brings the advantages of a tiling window manager to MacOS.
 
 #### Retina Display Manager (free and OSS)
 
-Ridiciculously simple menu-bar app to change screen resolution. Plus has the
+Ridiculously simple menu-bar app to change screen resolution. Plus has the
 added benefit of unlocking many more resolutions (including true native
 resolutions) than you can access via the preferences pane.
 
@@ -124,7 +124,7 @@ lowest latency I have ever experienced in a terminal emulator.
 
 ## Terminal Tools
 
-#### homebrewa (free and OSS)
+#### homebrew (free and OSS)
 
 The macOS package manager that should have been. Absolute must for software
 development and installing open source software.
