@@ -18,7 +18,7 @@ weight of flour and sugar so that I could figure out the right amount to add.
 I chose to make dark chocolate chip, macadamia nut cookies, with some sprinkled
 in 3 chocolate chip mix (can you tell I love chocolate?).
 
-Most of the cookies were made with a dough mix with all the aforementioned
+Most of the cookies were made by mixing the dough with all the aforementioned
 toppings in it. But a couple of them were separated and had a big chunk of
 chocolate in the middle.
 
