@@ -8,7 +8,7 @@ permalink: post/quarantine-bread-v1
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/plankenau/49793626911/in/dateposted-public/" title="Quarantine bread"><img src="https://live.staticflickr.com/65535/49793626911_e81e13ab05_z.jpg" width="640" height="425" alt="Quarantine bread"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-After experiencing relative [success](./quarantine-cookies-v2) baking cookies I
+After experiencing relative success [baking cookies](./quarantine-cookies-v2) I
 figured making quarantine bread was the logical next step. I'm surprised it
 took me 38 days of quarantine before succumbing to making bread :P
 
