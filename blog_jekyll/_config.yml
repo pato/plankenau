@@ -11,7 +11,7 @@ email: contact@p.lankenau.io
 description: > # this means to ignore newlines until "baseurl:"
   Software Engineer that works in distributed systems.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://plankenu.com" # the base hostname & protocol for your site
+url: "http://plankenau.com" # the base hostname & protocol for your site
 github_username:  pato
 
 # Build settings
