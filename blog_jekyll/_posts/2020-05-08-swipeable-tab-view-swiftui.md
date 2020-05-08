@@ -2,7 +2,7 @@
 layout: post
 title: Swipeable TabView in SwiftUI
 published: true
-date: 2020-04-19
+date: 2020-05-08
 permalink: post/swipeable-tabview-swiftui
 ---
 
