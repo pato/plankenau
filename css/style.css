@@ -18,9 +18,11 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6em;
 }
+
 .bodytop{
     padding-top: 15%;
 }
+
 @media (min-width: 768px) and (max-width: 992px){
     .box{
         height:20em;
@@ -74,4 +76,13 @@ li{
   height: 100px;
   margin-bottom: 10px;
   border-radius: 10px;
+}
+
+@media only screen and (max-width : 600px) {
+  .bodytop{
+    padding-bottom: 20px;
+  }
+  .footer {
+    visibility: hidden;
+  }
 }
