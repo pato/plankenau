@@ -119,7 +119,7 @@ who leaks my emails! When I get publicity emails to the custom email I made for
 just Amazon AWS... I know exactly who did it. *Shame on you amazon*.
 
 If you decide to go down this route, be prepared for some funny stares and
-interesting questions whenever people as you for your email in person (e.g., at
-stores) and you give them a specifically tailored email. Also it goes without
-saying that this setup benefits the most from a good password manager to keep
-track of all your custom emails.
+interesting questions whenever people ask you for your email in person (e.g.,
+at stores) and you give them a specifically tailored email. Also it goes
+without saying that this setup benefits the most from a good password manager
+to keep track of all your custom emails.
