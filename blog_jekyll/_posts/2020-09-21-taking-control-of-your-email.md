@@ -87,7 +87,7 @@ used to do with Gmail by doing something like
 `random_tag@your_email.com`. Much cleaner, and way less likely to be
 automatically scraped off. 
 
-![image](http://plankenau.com/i/mail_routing.png "mail routing configuration")
+![image](https://plankenau.com/i/mail_routing.png "mail routing configuration")
 
 This also means that if any one of the email aliases gets leaked to some ad
 company or annoying publisher, you can blacklist that one particular address
