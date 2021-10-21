@@ -33,10 +33,15 @@ MacOS press `CMD+SHIFT+X` (on windows press `CTRL+ALT+X`). This opens the
 "Advanced Settings".
 
 Here I recommend you
+
 * set hostname to something memorable and unique on your network
+
 * enable ssh (you can enable password then later use `ssh-copy-id` or enable public-key auth here)
+
 * configure your wifi (on my mac it attempted to get the password for my network from keychain, although it only succeeded in getting the SSID)
+
 * configure locale to your timezone and language
+
 * skip the first-run wizard (since we've configured all the aforementioned settings and will be headless anyways)
 
 Now you can exit the advanced settings, and click on "Write"! You'll need to
