@@ -2,7 +2,7 @@
 layout: post
 title: Installing Raspberry Pi OS Lite headless on MacoS
 published: true
-date: 2021-01-04
+date: 2021-10-20
 permalink: post/raspberry-pi-os-lite-headless-macos
 ---
 
