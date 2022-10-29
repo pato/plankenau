@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to copy Git commits from one repo to another unrelated repo
+title: How to copy git commits from one repo to another unrelated repo
 published: true
 date: 2022-10-29
 permalink: post/copy-commits-separate-git-repos
