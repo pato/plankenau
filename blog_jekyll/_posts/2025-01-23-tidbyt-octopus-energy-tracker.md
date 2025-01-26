@@ -6,7 +6,7 @@ date: 2025-01-25
 permalink: post/tidbyt-octopus-energy-tracker
 ---
 
-I was sad when I learned that [Tidbyt got acquired by Modal][aquired-news],
+I was sad when I learned that [Tidbyt got acquired by Modal][acquired-news],
 which likely means the inevitable death of my Tidbyt. That said, the news did
 remind me that I have a Tidbyt and that I always wanted to be able to track my
 electricity prices on it.
