@@ -6,6 +6,8 @@ date: 2026-05-12
 permalink: post/revolut-uk-savings-account-solved
 ---
 
+<p style="text-align:center"><a href="https://plankenau.com/revolut.html"><img src="https://plankenau.com/i/revolut_uk_comparator.png" height="400"></a></p>
+
 Now that Revolut got their [UK banking license][1], I wanted to see if it would
 make sense to use them for the purposes of opening a savings account. They have
 fairly competitive rates and the fact that they pay out interest daily is quite
