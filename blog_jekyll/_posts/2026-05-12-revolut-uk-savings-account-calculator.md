@@ -15,10 +15,10 @@ a nice flexibility for shorter term holdings (most banks pay interest only
 every month or even months and sometimes you will not accrue any if you take it
 out before the full period).
 
-One interesting factor to consider is that revolut has a tiered interest rate,
+One interesting factor to consider is that Revolut has a tiered interest rate,
 which depends on which Revolut plan you pay for. For those unfamiliar, the
 Revolut tiers give you access to nicer cards (stainless stell or even platinum
-coated), reduce costs (e.g., forex on weekdsn, and reducing/removing foreign
+coated), reduce costs (e.g., forex on weekend, and reducing/removing foreign
 transfer fees), and a multitude of 3rd party deals (e.g., NordVPN, ClassPass,
 WeWork, etc..).
 
@@ -38,7 +38,7 @@ My first solution was a hand-written Rust implementation (because I still love
 Rust) that prints a nice ascii table.
 
 But I realized I knew a few people that might be interested in the break even
-points, so I used OpenCode + GLM 5.5 (my current agentic harness for personal
+points, so I used OpenCode + GLM 5.1 (my current agentic setup for personal
 projects, after I recently cancelled my Anthropic subscription), and told it to
 make me a single HTML file version with graphs and inputs to help people figure
 out which plan makes the most sense for everyone.
