@@ -17,7 +17,7 @@ out before the full period).
 
 One interesting factor to consider is that Revolut has a tiered interest rate,
 which depends on which Revolut plan you pay for. For those unfamiliar, the
-Revolut tiers give you access to nicer cards (stainless stell or even platinum
+Revolut tiers give you access to nicer cards (stainless steel or even platinum
 coated), reduce costs (e.g., forex on weekend, and reducing/removing foreign
 transfer fees), and a multitude of 3rd party deals (e.g., NordVPN, ClassPass,
 WeWork, etc..).
